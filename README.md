@@ -1,6 +1,6 @@
-# [![Sarek](https://raw.githubusercontent.com/SciLifeLab/Sarek/master/docs/images/Sarek_logo.png "Sarek")](http://sarek.scilifelab.se/)
+# pyCancerSig
 
-#### An open-source analysis pipeline to detect germline or somatic variants from whole genome or targeted sequencing
+#### A comprehensive package to perform tumor mutation profiling and cancer signature analysis from whole genome and/or whole exome sequencing data.
 
 [![Nextflow version][nextflow-badge]][nextflow-link]
 [![Travis build status][travis-badge]][travis-link]
