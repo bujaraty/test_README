@@ -2,16 +2,7 @@
 
 #### A comprehensive package to perform tumor mutation profiling and cancer signature analysis from whole genome and/or whole exome sequencing data.
 
-[![Nextflow version][nextflow-badge]][nextflow-link]
-[![Travis build status][travis-badge]][travis-link]
-[![Join the chat on https://gitter.im/SciLifeLab/Sarek][gitter-badge]][gitter-link]
-
-[![MIT License][license-badge]][license-link]
-[![Sarek version][version-badge]][version-link]
-[![DOI][zenodo-badge]][zenodo-link]
-
-[![Install with bioconda][bioconda-badge]][bioconda-link]
-[![Docker Container available][docker-badge]][docker-link]
+#
 
 ## Introduction
 
