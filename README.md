@@ -46,12 +46,12 @@ usage: cancersig <command> [options]
 
 Key commands:
 ```
-feature             extract mutational profile
+profile             extract mutational profile
 signature           extract mutational sigantures from mutational profiles
 visualize           visualize mutational signatures identified in tumors
 ```
 
-`cancersig feature` key commands:
+`cancersig profile` key commands:
 ```
 snv                 extract SNV mutational profile
 sv                  extract SV mutational profile
@@ -59,7 +59,7 @@ msi                 extract MSI mutational profile
 merge               merge all mutaitonal profile into a single profile
 ```
 
-`cancersig feature snv` [options]:
+`cancersig profile snv` [options]:
 ```
 -i {file}           input VCF file (required)
 -g {file}           genotype format (default="GTR")
@@ -67,13 +67,13 @@ merge               merge all mutaitonal profile into a single profile
 -o {file}           output snv feature file (required)
 ```
 
-`cancersig feature sv` [options]:
+`cancersig profile sv` [options]:
 ```
 -i {file}           input VCF file (required)
 -o {file}           output sv feature file (required)
 ```
 
-`cancersig feature msi` [options]:
+`cancersig profile msi` [options]:
 ```
 --raw_msisensor_report {file}    an output from "msisensor msi" that have only msi score (percentage of MSI loci) (required)
 --raw_msisensor_somatic {file}   an output from "msisensor msi" that have suffix "_somatic" (required)
@@ -81,10 +81,18 @@ merge               merge all mutaitonal profile into a single profile
 -o {file}                        output msi feature file (required)
 ```
 
-`cancersig feature merge` [options]:
+`cancersig profile merge` [options]:
 ```
 -i {directory,file}  directory (or a file with list of directories) containing feature files to be merged (required)
 -o {file}            output merged feature file (required)
+```
+
+`cancersig signature` [options]:
+```
+--mutation_profiles {file}      input mutation calalog to be deciphered (required)
+--min_signatures                minimum number of signatures to be deciphered (default=2)
+--max_signatures                maximum number of signatures to be deciphered (default=15)
+--out_prefix                    output file prefix
 ```
 
 ## Example
