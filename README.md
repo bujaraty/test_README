@@ -51,6 +51,13 @@ signature           extract mutational sigantures from mutational profiles
 visualize           visualize mutational signatures identified in tumors
 ```
 
+cancersig feature key commands:
+```
+snv         extract SNV mutational profile
+sv          extract SV mutational profile
+msi         extract MSI mutational profile
+merge       merge all mutaitonal profile into a single profiles
+```
 
 ## Example
 
