@@ -10,8 +10,6 @@ cd pyCancerSig
 python setup.py install
 ```
 
-#
-
 ## Workflow steps
 
 Sarek is built with several workflow scripts.
