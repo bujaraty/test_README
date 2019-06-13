@@ -22,6 +22,9 @@ The workflow consists of 4 steps
 
 1. Preprocessing - This step is to generate list of variants and/or
    information related
+    - Single nucleotide variant (SNV)
+    - Structural variant (SV)
+    - Microsatellite instability (MSI)
 
 ## Workflow steps
 
