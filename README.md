@@ -30,6 +30,8 @@ The workflow consists of 4 steps
     3. Column 3, Feature ID (Somatic Mutation Type in COSMIC)
     4. From column 4 onward, each column represent one sample
 
+    There are subcommand to be used for each type of genetic variation
+    - `cancersig feature SNV` is for
 
 ## Workflow steps
 
