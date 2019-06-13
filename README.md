@@ -59,6 +59,15 @@ msi         extract MSI mutational profile
 merge       merge all mutaitonal profile into a single profiles
 ```
 
+`cancersig feature snv` [options]:
+```
+-i {file}           input VCF file (required)
+-g {file}           genotype format (default="GTR")
+-r {file}           path to genome reference (required)
+-e {file}           output events file (required)
+-o {file}           output titv file (required)
+```
+
 ## Example
 
 ## Feature file format
