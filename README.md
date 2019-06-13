@@ -73,6 +73,14 @@ merge       merge all mutaitonal profile into a single profile
 -o {file}           output sv feature file (required)
 ```
 
+`cancersig feature msi` [options]:
+```
+--raw_msisensor_report {file}    an output from "msisensor msi" that have only msi score (percentage of MSI loci) (required)
+--raw_msisensor_somatic {file}   an output from "msisensor msi" that have suffix "_somatic" (required)
+--sample_id                      a sample id to be used as a column header in the output file (required)
+-o {file}                        output msi feature file (required)
+```
+
 ## Example
 
 ## Feature file format
