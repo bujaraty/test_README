@@ -44,7 +44,5 @@ The workflow consists of 4 steps
 
 ## Feature file format
 
-## Workflow steps
-
 ## Contact
 
