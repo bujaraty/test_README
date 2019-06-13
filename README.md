@@ -41,7 +41,7 @@ The workflow consists of 4 steps
 ## Usage
 
 ```
-cancersig <command> [options]
+usage: cancersig <command> [options]
 ```
 
 ## Example
