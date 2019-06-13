@@ -35,6 +35,7 @@ The workflow consists of 4 steps
     - `cancersig feature SV` is for extraction structural variant feature
     - `cancersig feature MSI` is for extraction microsatellite instability feature
     - `cancersig feature merge` is for merging all feature profiles into one single profile ready to be used by the next step
+3. Deciphering mutational sigantures - `cancersig signature` - The purpose of this step is to find mutational siganture components in the tumors.
 
 ## Workflow steps
 
