@@ -46,9 +46,9 @@ usage: cancersig <command> [options]
 
 Key commands:
 ```
-    feature             extract mutational profile
-    signature           extract mutational sigantures from mutational profiles
-    visualize           visualize mutational signatures identified in tumors
+feature             extract mutational profile
+signature           extract mutational sigantures from mutational profiles
+visualize           visualize mutational signatures identified in tumors
 ```
 
 
