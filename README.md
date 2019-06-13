@@ -2,9 +2,12 @@
 
 #### A comprehensive package to perform tumor mutation profiling and cancer signature analysis from whole genome and/or whole exome sequencing data.
 
-#
+Installation
+------------
 
-## Installation
+git clone https://github.com/ding-lab/msisensor.git
+cd msisensor
+make
 
 #
 
