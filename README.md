@@ -3,6 +3,13 @@
 #### A comprehensive package to perform tumor mutation profiling and cancer signature analysis from whole genome and/or whole exome sequencing data.
 
 ## Installation
+
+Dependencies
+- FindSV - https://github.com/J35P312/FindSV
+- msisensor - https://github.com/ding-lab/msisensor
+
+
+
 ```
 git clone https://github.com/jessada/pyCancerSig.git
 cd pyCancerSig
