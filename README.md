@@ -29,7 +29,6 @@ The workflow consists of 4 steps
     2. Column 2, Variant subgroup (Trinucleotide in COSMIC)
     3. Column 3, Feature ID (Somatic Mutation Type in COSMIC)
     4. From column 4 onward, each column represent one sample
-
 each
 
 ## Workflow steps
