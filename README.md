@@ -31,9 +31,9 @@ The workflow consists of 4 steps
     4. From column 4 onward, each column represent one sample
 
     There are subcommand to be used for each type of genetic variation
-    - `cancersig feature SNV` is for extraction single nucletide variant feature
-    - `cancersig feature SV` is for extraction structural variant feature
-    - `cancersig feature MSI` is for extraction microsatellite instability feature
+    - `cancersig feature snv` is for extraction single nucletide variant feature
+    - `cancersig feature sv` is for extraction structural variant feature
+    - `cancersig feature msi` is for extraction microsatellite instability feature
     - `cancersig feature merge` is for merging all feature profiles into one single profile ready to be used by the next step
 3. Deciphering mutational signatures - `cancersig signature` - The purpose of this step is to use unsupervised learning model to find mutational signature components in the tumors.
 4. Visualizing profiles `cancersig visualize` - The purpose of this step is to visualize mutational signature component for each tumor.
