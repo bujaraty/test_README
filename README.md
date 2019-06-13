@@ -44,6 +44,9 @@ The workflow consists of 4 steps
 usage: cancersig <command> [options]
 ```
 
+Key commands:
+
+
 ## Example
 
 ## Feature file format
