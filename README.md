@@ -99,8 +99,7 @@ merge               merge all mutaitonal profile into a single profile
 ```
 --mutation_profiles {file}         input mutation calalog to be reconstructed (required)
 --signatures_probabilities {file}  input file with deciphered cancer signatures probabilities (required)
---max_signatures {file}            maximum number of signatures to be deciphered (default=15)
---output_dir {directory)           output directory
+--output_dir {directory)           output directory (required)
 ```
 
 ## Example
