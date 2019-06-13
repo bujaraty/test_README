@@ -20,7 +20,8 @@ python setup.py install
 
 The workflow consists of 4 steps
 
-1. Preprocessing
+1. Preprocessing - This step is to generate list of variants and/or
+   information related
 
 ## Workflow steps
 
