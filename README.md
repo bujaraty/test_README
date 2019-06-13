@@ -21,9 +21,10 @@ python setup.py install
 The workflow consists of 4 steps
 
 1. Preprocessing - The purpose of this step is to generate list of variants and/or information related. This step has to be performed by third party software.
-    - Single nucleotide variant (SNV)
-    - Structural variant (SV)
-    - Microsatellite instability (MSI)
+    - Single nucleotide variant (SNV) - recommending MuTect2, otherwise Muse, VarScan2, or SomaticSniper.
+    - Structural variant (SV) - dependency on FindSV
+    - Microsatellite instability (MSI) - dependency on MSI sensor
+2. Feature extraction - The purpose of this step is to turn information genereated in the first step into matrix features usable by the model in the next step. The output of this stage has similar format as https://cancer.sanger.ac.uk/cancergenome/assets/signatures_probabilities.txt, which consists of at least 3 columns
 
 ## Workflow steps
 
