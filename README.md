@@ -31,7 +31,10 @@ The workflow consists of 4 steps
     4. From column 4 onward, each column represent one sample
 
     There are subcommand to be used for each type of genetic variation
-    - `cancersig feature SNV` is for
+    - `cancersig feature SNV` is for extraction single nucletide variant feature
+    - `cancersig feature SV` is for extraction structural variant feature
+    - `cancersig feature MSI` is for extraction microsatellite instability feature
+    - `cancersig feature merge` is for merging all feature profiles into one single profile ready to be used by the next step
 
 ## Workflow steps
 
