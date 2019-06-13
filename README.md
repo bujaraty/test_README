@@ -95,6 +95,14 @@ merge               merge all mutaitonal profile into a single profile
 --out_prefix                    output file prefix
 ```
 
+`cancersig visualize` [options]:
+```
+--mutation_profiles {file}      input mutation calalog to be reconstructed (required)
+--signature_probability {file}  input file with deciphered cancer signature probability (required)
+--max_signatures {file}         maximum number of signatures to be deciphered (default=15)
+--output_dir {directory)        output directory
+```
+
 ## Example
 
 ## Feature file format
