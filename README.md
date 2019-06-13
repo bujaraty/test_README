@@ -20,8 +20,7 @@ python setup.py install
 
 The workflow consists of 4 steps
 
-1. Preprocessing - This step is to generate list of variants and/or
-   information related
+1. Preprocessing - The purpose of this step is to generate list of variants and/or information related. This step has to be performed by third party software.
     - Single nucleotide variant (SNV)
     - Structural variant (SV)
     - Microsatellite instability (MSI)
