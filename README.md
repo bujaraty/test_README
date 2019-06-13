@@ -64,8 +64,13 @@ merge       merge all mutaitonal profile into a single profiles
 -i {file}           input VCF file (required)
 -g {file}           genotype format (default="GTR")
 -r {file}           path to genome reference (required)
--e {file}           output events file (required)
--o {file}           output titv file (required)
+-o {file}           output snv feature file (required)
+```
+
+`cancersig feature sv` [options]:
+```
+-i {file}           input VCF file (required)
+-o {file}           output sv feature file (required)
 ```
 
 ## Example
