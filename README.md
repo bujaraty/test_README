@@ -8,7 +8,7 @@ Dependencies
 - FindSV - https://github.com/J35P312/FindSV
 - msisensor - https://github.com/ding-lab/msisensor
 
-
+Install the dependencies, then download and install pyCancerSig
 
 ```
 git clone https://github.com/jessada/pyCancerSig.git
