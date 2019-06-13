@@ -4,10 +4,11 @@
 
 Installation
 ------------
-
-  git clone https://github.com/ding-lab/msisensor.git
-  cd msisensor
-  make
+```
+git clone https://github.com/ding-lab/msisensor.git
+cd msisensor
+make
+```
 
 #
 
