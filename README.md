@@ -113,6 +113,8 @@ As this part is performed by third-party software, please check the original web
 
 ###### 2.1 SNV profiling
 
+`cancersig profile snv` will check the VCF file in the genotype file(default="GTR") for the SNV change on both strands, and then will use the genomic coordinate to look up the 5\' and 
+
 ## Feature file format
 
 ## Contact
