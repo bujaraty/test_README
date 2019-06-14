@@ -118,6 +118,13 @@ As this part is performed by third-party software, please check the original web
 - then, use the genomic coordinates to look up the 5\' and 3\' base in the reference fasta (using samtools)
 - then, perform SNV profiling of the sample by counting number of variants in each category and divide it by total number of variants in the sample.
 
+The sample id in the output feature file will be the same as sample id in the input VCF file.
+
+Running
+```
+cancersig profile -i input.vcf -r /path/to/reference.fa -o snv_feature.txt
+```
+
 ## Feature file format
 
 ## Contact
