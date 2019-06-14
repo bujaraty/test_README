@@ -111,6 +111,8 @@ As this part is performed by third-party software, please check the original web
 
 ## Example and details - Step 2 Profiling (Feature extraction)
 
+###### SNV profiling
+
 ## Feature file format
 
 ## Contact
