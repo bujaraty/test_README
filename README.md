@@ -20,7 +20,7 @@ python setup.py install
 
 The workflow consists of 4 steps
 
-1. Preprocessing - The purpose of this step is to generate list of variants and/or information related. This step has to be performed by third party software.
+1. Data preprocessing - The purpose of this step is to generate list of variants and/or information related. This step has to be performed by third party software.
     - Single nucleotide variant (SNV) - recommending MuTect2, otherwise Muse, VarScan2, or SomaticSniper.
     - Structural variant (SV) - dependency on FindSV
     - Microsatellite instability (MSI) - dependency on MSI sensor
@@ -92,7 +92,7 @@ merge               merge all mutaitonal profile into a single profile
 --mutation_profiles {file}      input mutation calalog to be deciphered (required)
 --min_signatures                minimum number of signatures to be deciphered (default=2)
 --max_signatures                maximum number of signatures to be deciphered (default=15)
---out_prefix                    output file prefix
+--out_prefix                    output file prefix (required)
 ```
 
 `cancersig visualize` [options]:
@@ -103,6 +103,8 @@ merge               merge all mutaitonal profile into a single profile
 ```
 
 ## Example
+
+###### 1. Data preprocessing
 
 ## Feature file format
 
