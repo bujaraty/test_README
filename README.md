@@ -125,6 +125,10 @@ Example run:
 cancersig profile -i input.vcf -r /path/to/reference.fa -o snv_feature.txt
 ```
 
+Example output: https://github.com/jessada/pyCancerSig/example/output_snv_feature.txt
+```
+```
+
 ###### 2.2 SV profiling
 
 
