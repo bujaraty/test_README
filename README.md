@@ -102,7 +102,7 @@ merge               merge all mutaitonal profile into a single profile
 --output_dir {directory)           output directory (required)
 ```
 
-## Example - 1. Data preprocessing
+## Example - Step 1 Data preprocessing
 
 ###### 1. Data preprocessing
 
