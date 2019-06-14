@@ -105,9 +105,9 @@ merge               merge all mutaitonal profile into a single profile
 ## Example and details - Step 1 Data preprocessing
 
 As this part is performed by third-party software, please check the original website for the documentation
-
-
-###### 1. Data preprocessing
+    - Single nucleotide variant (SNV) - https://software.broadinstitute.org/gatk/documentation/tooldocs/3.8-0/org_broadinstitute_gatk_tools_walkers_cancer_m2_MuTect2.php
+    - Structural variant (SV) - dependency on FindSV
+    - Microsatellite instability (MSI) - dependency on MSI sensor
 
 ## Feature file format
 
