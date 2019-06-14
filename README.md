@@ -106,8 +106,8 @@ merge               merge all mutaitonal profile into a single profile
 
 As this part is performed by third-party software, please check the original website for the documentation
 - Single nucleotide variant (SNV) - https://software.broadinstitute.org/gatk/documentation/tooldocs/3.8-0/org_broadinstitute_gatk_tools_walkers_cancer_m2_MuTect2.php
-- Structural variant (SV) - dependency on FindSV
-- Microsatellite instability (MSI) - dependency on MSI sensor
+- Structural variant (SV) - https://github.com/J35P312/FindSV
+- Microsatellite instability (MSI) - https://github.com/ding-lab/msisensor
 
 ## Feature file format
 
