@@ -120,7 +120,7 @@ As this part is performed by third-party software, please check the original web
 
 The sample id in the output feature file will be the same as sample id in the input VCF file.
 
-Running
+Example run:
 ```
 cancersig profile -i input.vcf -r /path/to/reference.fa -o snv_feature.txt
 ```
