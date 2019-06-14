@@ -24,7 +24,7 @@ The workflow consists of 4 steps
     - Single nucleotide variant (SNV) - recommending MuTect2, otherwise Muse, VarScan2, or SomaticSniper.
     - Structural variant (SV) - dependency on FindSV
     - Microsatellite instability (MSI) - dependency on MSI sensor
-2. Feature extraction - `cancersig feature` - The purpose of this step is to turn information genereated in the first step into matrix features usable by the model in the next step. The output of this stage has similar format as https://cancer.sanger.ac.uk/cancergenome/assets/signatures_probabilities.txt, which consists of at least 3 columns.
+2. Profiling (Feature extraction) - `cancersig profile` - The purpose of this step is to turn information genereated in the first step into matrix features usable by the model in the next step. The output of this stage has similar format as https://cancer.sanger.ac.uk/cancergenome/assets/signatures_probabilities.txt, which consists of at least 3 columns.
     1. Column 1, Variant type (Substitution Type in COSMIC)
     2. Column 2, Variant subgroup (Trinucleotide in COSMIC)
     3. Column 3, Feature ID (Somatic Mutation Type in COSMIC)
@@ -108,6 +108,8 @@ As this part is performed by third-party software, please check the original web
 - Single nucleotide variant (SNV) - https://software.broadinstitute.org/gatk/documentation/tooldocs/3.8-0/org_broadinstitute_gatk_tools_walkers_cancer_m2_MuTect2.php
 - Structural variant (SV) - https://github.com/J35P312/FindSV
 - Microsatellite instability (MSI) - https://github.com/ding-lab/msisensor
+
+## Example and details - Step 2 Profiling
 
 ## Feature file format
 
