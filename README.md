@@ -113,7 +113,7 @@ As this part is performed by third-party software, please check the original web
 
 ###### 2.1 SNV profiling
 
-`cancersig profile snv` will check the VCF file in the genotype file(default="GTR") for the SNV change on both strands, and then will use the genomic coordinate to look up the 5\' and 
+`cancersig profile snv` will scan the VCF file in the genotype field (default="GTR") for SNV changes on both strands, and then it will use the genomic coordinates to look up the 5\' and 3\' base in the reference fasta (using samtools), and then it will perform SNV profiling of the sample by counting number of variants in each category and divide it by total number of variants in the sample.
 
 ## Feature file format
 
