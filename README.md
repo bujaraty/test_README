@@ -109,7 +109,7 @@ As this part is performed by third-party software, please check the original web
 - Structural variant (SV) - https://github.com/J35P312/FindSV
 - Microsatellite instability (MSI) - https://github.com/ding-lab/msisensor
 
-## Example and details - Step 2 Profiling
+## Example and details - Step 2 Profiling (Feature extraction)
 
 ## Feature file format
 
