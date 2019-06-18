@@ -201,3 +201,5 @@ Example output:
 
 ## Contact
 
+If you need more information of have any questions, please don't hesitate to contact jessada.thutkawkorapin@ki.se
+
