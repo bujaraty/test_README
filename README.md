@@ -145,10 +145,24 @@ Example output: https://github.com/jessada/pyCancerSig/example/output_sv_feature
 
 ###### 2.3 MSI profiling
 
-`cancersig profile MSI` will
+`cancersig profile msi` will
 - scan for all possible repeat patterns of repeat unit with size between 1-3
 - for size between 4-5, just count with no sub-categories
 - then, perform MSI profiling of the sample by counting number of repeats in each category and divide it by total number of repeats.
+
+The sample id in the output feature file has to be supplied as an input argument (--sample_id).
+
+Example run:
+```
+cancersig profile msi --raw_msisensor_report msisensor_out --raw_msisensor_somatic msisensor_out_somatic --sample_id example_sample -o msi_feature.txt
+```
+
+Example output: https://github.com/jessada/pyCancerSig/example/output_msi_feature.txt
+
+###### 2.4 Merge profile
+
+`cancersig profile merge` will
+- scan for *.feature.txt files in the input folder(s)
 
 The sample id in the output feature file has to be supplied as an input argument (--sample_id).
 
