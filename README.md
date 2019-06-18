@@ -164,8 +164,6 @@ Example output: https://github.com/jessada/pyCancerSig/example/output_msi_featur
 `cancersig profile merge` will
 - scan for \*.feature.txt files in the input folder(s)
 
-The sample id in the output feature file has to be supplied as an input argument (--sample_id).
-
 Example run:
 ```
 cancersig profile msi --raw_msisensor_report msisensor_out --raw_msisensor_somatic msisensor_out_somatic --sample_id example_sample -o msi_feature.txt
