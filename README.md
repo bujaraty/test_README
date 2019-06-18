@@ -116,7 +116,7 @@ As this part is performed by third-party software, please check the original web
 `cancersig profile snv` will
 - scan the VCF file in the genotype field (default="GTR") for SNV changes on both strands
 - then, use the genomic coordinates to look up the 5\' and 3\' base in the reference fasta (using samtools)
-- then, perform SNV profiling of the sample by counting number of variants in each category and divide it by total number of variants in the sample.
+- then, perform SNV profiling of the sample by counting number of SNV in each category and divide it by total number of variants in the sample.
 
 The sample id in the output feature file will be the same as sample id in the input VCF file.
 
@@ -132,6 +132,7 @@ Example output: https://github.com/jessada/pyCancerSig/example/output_snv_featur
 `cancersig profile sv` will
 - check INFO field "SVTYPE" to determine type of structural variation
 - check INFO field "SVLEN" for length of the event
+- then, perform SV profiling of the sample by counting number of SV in each category and divide it by total number of variants in the sample.
 
 ## Feature file format
 
