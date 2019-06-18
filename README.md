@@ -166,10 +166,14 @@ Example output: https://github.com/jessada/pyCancerSig/example/output_msi_featur
 
 Example run:
 ```
-cancersig profile msi --raw_msisensor_report msisensor_out --raw_msisensor_somatic msisensor_out_somatic --sample_id example_sample -o msi_feature.txt
+cancersig profile merge -i /path/to/all/feature.txt -o merged_feature.txt
+```
+or
+```
+cancersig profile merge -i a_file_with_list_of_folders.txt -o merged_feature.txt
 ```
 
-Example output: https://github.com/jessada/pyCancerSig/example/output_msi_feature.txt
+Example output: https://github.com/jessada/pyCancerSig/example/output_merged_feature.txt
 
 ## Feature file format
 
