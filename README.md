@@ -122,7 +122,7 @@ The sample id in the output feature file will be the same as sample id in the in
 
 Example run:
 ```
-cancersig profile -i input.vcf -r /path/to/reference.fa -o snv_feature.txt
+cancersig profile snv -i input.vcf -r /path/to/reference.fa -o snv_feature.txt
 ```
 
 Example output: https://github.com/jessada/pyCancerSig/example/output_snv_feature.txt
@@ -133,6 +133,15 @@ Example output: https://github.com/jessada/pyCancerSig/example/output_snv_featur
 - check INFO field "SVTYPE" to determine type of structural variation
 - check INFO field "SVLEN" for length of the event
 - then, perform SV profiling of the sample by counting number of SV in each category and divide it by total number of variants in the sample.
+
+The sample id in the output feature file will be the same as sample id in the input VCF file.
+
+Example run:
+```
+cancersig profile sv -i input.vcf -o sv_feature.txt
+```
+
+Example output: https://github.com/jessada/pyCancerSig/example/output_sv_feature.txt
 
 ## Feature file format
 
