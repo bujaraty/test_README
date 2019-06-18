@@ -177,6 +177,14 @@ Example output: https://github.com/jessada/pyCancerSig/example/output_merged_fea
 
 ## Example and details - Step 3 Deciphering mutational sigantures
 
+`cancersig signature` will
+-load mutational matrix profile
+-identify underlying mutational signatures following EXPERIMENTAL PROCEDURES from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3588146/pdf/main.pdf
+
+Example run:
+```
+cancersig signature --mutation_profile merged_mutational_profile.txt --out_prefix deciphered_signatures
+```
 
 ## Contact
 
