@@ -187,13 +187,14 @@ Example run:
 cancersig signature --mutation_profile merged_mutational_profile.txt --out_prefix out_deciphered
 ```
 
+Example output:
+- https://github.com/jessada/pyCancerSig/example/out_deciphered_4_signatures.txt
+- https://github.com/jessada/pyCancerSig/example/out_deciphered_4_signatures.pdf
+
 ## Example and details - Step 4 Visualizing profile
 
 `cancersig visualize` will
 
-Example output:
-- https://github.com/jessada/pyCancerSig/example/out_deciphered_4_signatures.txt
-- https://github.com/jessada/pyCancerSig/example/out_deciphered_4_signatures.pdf
 
 ## Contact
 
