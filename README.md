@@ -184,12 +184,16 @@ Example output: https://github.com/jessada/pyCancerSig/example/output_merged_fea
 
 Example run:
 ```
-cancersig signature --mutation_profile merged_mutational_profile.txt --out_prefix deciphered_signatures
+cancersig signature --mutation_profile merged_mutational_profile.txt --out_prefix out_deciphered
 ```
 
 ## Example and details - Step 4 Visualizing profile
 
 `cancersig visualize` will
+
+Example output:
+- https://github.com/jessada/pyCancerSig/example/out_deciphered_4_signatures.txt
+- https://github.com/jessada/pyCancerSig/example/out_deciphered_4_signatures.pdf
 
 ## Contact
 
