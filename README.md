@@ -164,18 +164,19 @@ Example output: https://github.com/jessada/pyCancerSig/example/output_msi_featur
 `cancersig profile merge` will
 - scan for \*.feature.txt files in the input folder(s)
 
-Example run:
+Example run (single folder):
 ```
 cancersig profile merge -i /path/to/all/feature.txt -o merged_feature.txt
 ```
-or
+Example run (multiple folder):
 ```
 cancersig profile merge -i a_file_with_list_of_folders.txt -o merged_feature.txt
 ```
 
 Example output: https://github.com/jessada/pyCancerSig/example/output_merged_feature.txt
 
-## Feature file format
+## Example and details - Step 3 Deciphering mutational sigantures
+
 
 ## Contact
 
