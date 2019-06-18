@@ -170,7 +170,7 @@ cancersig profile merge -i /path/to/all/feature.txt -o merged_feature.txt
 ```
 Example run (multiple folder):
 ```
-cancersig profile merge -i a_file_with_list_of_folders.txt -o merged_feature.txt
+cancersig profile merge -i a_file_with_list_of_folders.txt -o merged_mutational_profile.txt
 ```
 
 Example output: https://github.com/jessada/pyCancerSig/example/output_merged_feature.txt
