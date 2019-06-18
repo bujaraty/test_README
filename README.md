@@ -102,14 +102,14 @@ merge               merge all mutaitonal profile into a single profile
 --output_dir {directory)           output directory (required)
 ```
 
-## Example and details - Step 1 Data preprocessing
+## Examples and details - Step 1 Data preprocessing
 
 As this part is performed by third-party software, please check the original website for the documentation
 - Single nucleotide variant (SNV) - https://software.broadinstitute.org/gatk/documentation/tooldocs/3.8-0/org_broadinstitute_gatk_tools_walkers_cancer_m2_MuTect2.php
 - Structural variant (SV) - https://github.com/J35P312/FindSV
 - Microsatellite instability (MSI) - https://github.com/ding-lab/msisensor
 
-## Example and details - Step 2 Profiling (Feature extraction)
+## Examples and details - Step 2 Profiling (Feature extraction)
 
 ###### 2.1 SNV profiling
 
@@ -125,7 +125,7 @@ Example run:
 cancersig profile snv -i input.vcf -r /path/to/reference.fa -o snv_feature.txt
 ```
 
-Example output: https://github.com/jessada/pyCancerSig/example/output_snv_feature.txt
+Examples output: https://github.com/jessada/pyCancerSig/example/output_snv_feature.txt
 
 ###### 2.2 SV profiling
 
@@ -176,7 +176,7 @@ cancersig profile merge -i a_file_with_list_of_folders.txt -o merged_mutational_
 
 Example output: https://github.com/jessada/pyCancerSig/example/output_merged_feature.txt
 
-## Example and details - Step 3 Deciphering mutational sigantures
+## Examples and details - Step 3 Deciphering mutational sigantures
 
 `cancersig signature` will
 - load mutational matrix profile
