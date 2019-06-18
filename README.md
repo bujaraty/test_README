@@ -162,8 +162,8 @@ Example output: https://github.com/jessada/pyCancerSig/example/output_msi_featur
 ###### 2.4 Merge profile
 
 `cancersig profile merge` will
--scan for \*.feature.txt files in the input folder(s)
--if a sample has all feature of all mutation types (SNV, SV, MSI), it will be merged into one profile. The percentage weight of SNV, SV and MSI are 70%, 30% and 10% respectively.
+- scan for \*.feature.txt files in the input folder(s)
+- if a sample has all feature of all mutation types (SNV, SV, MSI), it will be merged into one profile. The percentage weight of SNV, SV and MSI are 70%, 30% and 10% respectively.
 
 Example run (single folder):
 ```
@@ -179,8 +179,8 @@ Example output: https://github.com/jessada/pyCancerSig/example/output_merged_fea
 ## Example and details - Step 3 Deciphering mutational sigantures
 
 `cancersig signature` will
--load mutational matrix profile
--identify underlying mutational signatures following EXPERIMENTAL PROCEDURES from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3588146/pdf/main.pdf
+- load mutational matrix profile
+- identify underlying mutational signatures following EXPERIMENTAL PROCEDURES from https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3588146/pdf/main.pdf
 
 Example run:
 ```
