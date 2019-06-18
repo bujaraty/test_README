@@ -130,6 +130,8 @@ Example output: https://github.com/jessada/pyCancerSig/example/output_snv_featur
 ###### 2.2 SV profiling
 
 `cancersig profile sv` will
+- check INFO field "SVTYPE" to determine type of structural variation
+- check INFO field "SVLEN" for length of the event
 
 ## Feature file format
 
