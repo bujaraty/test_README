@@ -141,7 +141,7 @@ Example run:
 cancersig profile sv -i input.vcf -o sv_feature.txt
 ```
 
-Example output: ./example/output_sv_feature.txt
+Example output: [Contribution guidelines for this project](./example/output_sv_feature.txt)
 
 ###### 2.3 MSI profiling
 
