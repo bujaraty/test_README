@@ -1,6 +1,9 @@
 # pyCancerSig
+# A python package for deciphering cancer signatures.
 
-#### A comprehensive package to perform tumor mutation profiling and cancer signature analysis from whole genome and/or whole exome sequencing data.
+Comprehensive cancer signatures with a main workflow in nextflow, and reusable modules written in python.
+Integrate SNV, SV and MSI profiles in signatures decomposed using non-negative matrix factorisation, and produce production ready pdf reports. 
+
 
 ## Installation
 
