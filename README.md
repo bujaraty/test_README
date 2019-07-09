@@ -201,7 +201,7 @@ cancersig profile merge -i /path/to/first/dir,/path/to/second/dir -o merged_feat
 
 Example run:
 ```
-cancersig signature --mutation_profile merged_mutational_profile.txt --out_prefix output_deciphered
+cancersig signature decipher --mutation_profile merged_mutational_profile.txt --out_prefix deciphered_output_file_prefix
 ```
 
 Example output:
@@ -215,6 +215,11 @@ Example output:
 - display the original mutaitonal profile
 - display the reconstruction mutational profile (based on the recomposition)
 - display the reconstruction error
+
+Example run:
+```
+cancersig signature visualize --mutation_profile merged_mutational_profile.txt --signatures_probabilities signatures_probabilities.txt --output_dir /path/to/output/dir
+```
 
 ## Contact
 
