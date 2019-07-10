@@ -205,7 +205,7 @@ cancersig signature decipher --mutation_profile merged_mutational_profile.txt --
 ```
 
 Example output:
-- [Example of signature probabilities (4 signatures)](./example/output_deciphered_4_signatures.txt)
+- [Example of signature probabilities (4 signatures)](./example/output_deciphered_4_signatures.txt)[/path/example/input](./example/output_deciphered_4_signatures.txt)
 - [Example of deciphered signatures (4 signatures)](./example/output_deciphered_4_signatures.pdf)
 
 ## Example and details - Step 4 Visualizing profile
