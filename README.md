@@ -192,7 +192,7 @@ Example run for mergeing certain profile types (SV and SNV in this case):
 cancersig profile merge -i /path/to/first/dir,/path/to/second/dir -o merged_feature.txt --profile_types SNV,SV
 ```
 
-[Example merged feature file](./example/output_merged_feature.txt) from example input directories [/path1](./cancersig/profile/test/data/profile_merger/ProfileMerger/test_merge_1/SNV/cancer1),[/path2](./cancersig/profile/test/data/profile_merger/ProfileMerger/test_merge_1/SNV/cancer2),[/path3](./cancersig/profile/test/data/profile_merger/ProfileMerger/test_merge_1/SV/cancer1),[/path4](./cancersig/profile/test/data/profile_merger/ProfileMerger/test_merge_1/SV/cancer2),[/path5](./cancersig/profile/test/data/profile_merger/ProfileMerger/test_merge_1/MSI/cancer1),[/path6](./cancersig/profile/test/data/profile_merger/ProfileMerger/test_merge_1/MSI/cancer2),
+[Example merged feature file](./example/output_merged_feature.txt) from example input directories [/path1](./cancersig/profile/test/data/profile_merger/ProfileMerger/test_merge_1/SNV/cancer1),[/path2](./cancersig/profile/test/data/profile_merger/ProfileMerger/test_merge_1/SNV/cancer2),[/path3](./cancersig/profile/test/data/profile_merger/ProfileMerger/test_merge_1/SV/cancer1),[/path4](./cancersig/profile/test/data/profile_merger/ProfileMerger/test_merge_1/SV/cancer2),[/path5](./cancersig/profile/test/data/profile_merger/ProfileMerger/test_merge_1/MSI/cancer1),[/path6](./cancersig/profile/test/data/profile_merger/ProfileMerger/test_merge_1/MSI/cancer2)
 
 ## Examples and details - Step 3 Deciphering mutational signatures
 
