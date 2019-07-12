@@ -29,7 +29,7 @@ source ~/.bashrc      # or logout and re-login
 
 The workflow consists of 4 steps
 
-![Alt text](./example/genetic_code.jpg?raw=true "Title")
+![Alt text](./example/genetic_code.svg?raw=true "Title")
 
 1. Data preprocessing - The purpose of this step is to generate list of variants and/or information related. This step has to be performed by third party software.
     - Single nucleotide variant (SNV) - recommending MuTect2, otherwise Muse, VarScan2, or SomaticSniper.
