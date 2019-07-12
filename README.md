@@ -30,7 +30,7 @@ source ~/.bashrc      # or logout and re-login
 The workflow consists of 4 steps
 
 <p align="center">
-  <img width="800" height="600" src="./example/genetic_code.jpg">
+  <img width="800" height="600" src="./example/genetic_code.png">
 </p>
 
 
