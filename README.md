@@ -52,7 +52,13 @@ The workflow consists of 4 steps
 ###### Example of a visualized pdf report of an SNV-only profile
 
 <p align="center">
-  <img width="900" height="1200" src="./figures/A_demo_sample_snv_only_profile.merged.png">
+  <img width="900" height="1200" src="./figures/A_demo_sample_snv_only_profile.png">
+</p>
+
+###### Example of a visualized pdf report of a combined profile
+
+<p align="center">
+  <img width="900" height="1200" src="./figures/A_demo_sample_combined_profile.png">
 </p>
 
 ## Usage
