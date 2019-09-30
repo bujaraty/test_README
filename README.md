@@ -52,7 +52,7 @@ The workflow consists of 4 steps
 ###### Example SNV-only output
 
 <p align="center">
-  <img width="900" height="550" src="./figures/A_demo_sample_snv_only_profile.merged.pdf">
+  <img width="900" height="550" src="./figures/A_demo_sample_snv_only_profile.merged.png">
 </p>
 
 ## Usage
